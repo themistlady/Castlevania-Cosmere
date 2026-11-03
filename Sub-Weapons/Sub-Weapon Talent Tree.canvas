@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"34b70f81d0c0bbb4","type":"text","text":"Sub-Weapons","x":-140,"y":-180,"width":250,"height":60},
+		{"id":"90e6e9f38037b05e","type":"text","text":"% Devastating Weaponry","x":-280,"y":20,"width":250,"height":60},
+		{"id":"b79dad4174dd5dd5","type":"text","text":"\\# Deadly Arsena","x":-280,"y":-80,"width":250,"height":60},
+		{"id":"afb42ed834242b06","type":"text","text":"% Long-Distance Warfare","x":20,"y":-80,"width":250,"height":60},
+		{"id":"36692452dbd6edbf","type":"text","text":"\\# Last Stand","x":20,"y":20,"width":250,"height":60},
+		{"id":"706a0783e0c148f3","type":"text","text":"\\- Weaponized Reflex","x":-280,"y":120,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"b3ecd2ff5d9cf973","fromNode":"afb42ed834242b06","fromSide":"bottom","toNode":"36692452dbd6edbf","toSide":"top"},
+		{"id":"061eae0cbd79a240","fromNode":"34b70f81d0c0bbb4","fromSide":"bottom","toNode":"afb42ed834242b06","toSide":"top"},
+		{"id":"2dfaceda8be0f439","fromNode":"34b70f81d0c0bbb4","fromSide":"bottom","toNode":"b79dad4174dd5dd5","toSide":"top"},
+		{"id":"8dd9d2f2bbcbe1e7","fromNode":"b79dad4174dd5dd5","fromSide":"bottom","toNode":"90e6e9f38037b05e","toSide":"top"},
+		{"id":"488f96edad29a461","fromNode":"90e6e9f38037b05e","fromSide":"bottom","toNode":"706a0783e0c148f3","toSide":"top"},
+		{"id":"ca780915724eb5b6","fromNode":"90e6e9f38037b05e","fromSide":"right","toNode":"36692452dbd6edbf","toSide":"left"}
+	]
+}
